@@ -8,7 +8,7 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [build-dependencies]
-rand = { version = "0.8", features = ["alloc"] }
+rand = { version = "0.9", features = ["alloc"] }
 fs-err = "2"
 
 [dependencies]
@@ -19,7 +19,7 @@ reed-solomon-erasure = { version = "4.0", features = ["simd-accel"] }
 # ffaster = { path = "../reed-solomon-erasure", features = ["simd-accel"] }
 thiserror = "1.0.23"
 # required for randomly dropping shards
-rand = { version = "0.8", features = ["alloc"] }
+rand = { version = "0.9", features = ["alloc"] }
 itertools = "0.10"
 sha2 = "0.9"
 
